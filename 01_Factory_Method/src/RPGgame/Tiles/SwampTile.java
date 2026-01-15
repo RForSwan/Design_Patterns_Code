@@ -1,7 +1,5 @@
 package RPGgame.Tiles;
 
-import RPGgame.Tile;
-
 public class SwampTile implements Tile {
     private String Character = "S";
     private String Description = "Swamp";

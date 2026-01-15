@@ -1,7 +1,5 @@
 package RPGgame.Tiles;
 
-import RPGgame.Tile;
-
 public class ForestTile implements Tile {
     private String Character = "F";
     private String Description = "Forest";

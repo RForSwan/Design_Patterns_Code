@@ -1,4 +1,4 @@
-package RPGgame;
+package RPGgame.Tiles;
 
 public interface Tile {
     public abstract String getCharacter();
