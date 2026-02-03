@@ -1,0 +1,1 @@
+[17:40:53.864052700][INFO] -> Logger initialized for file "new_log.txt".
