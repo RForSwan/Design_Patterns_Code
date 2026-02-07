@@ -14,8 +14,8 @@ public abstract class Subject
         observers.remove(observer);
     }
 
-    public void notifyObserver()
+    public void notifyObserver(int temperature)
     {
-        for(Observer observer : observers) observer.update();
+        for(Observer observer : observers) observer.update(temperature);
     }
 }

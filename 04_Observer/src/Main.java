@@ -1,13 +1,21 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+void main() throws InterruptedException {
+    WeatherStation ws = new WeatherStation();
+    WeatherStationObserver wsObserver1 = new WeatherStationObserver();
+    WeatherStationObserver wsObserver2 = new WeatherStationObserver();
+    WeatherStationObserver wsObserver3 = new WeatherStationObserver();
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
-    }
+    wsObserver1.setMessage("Last temp recorded by wsObserver1 is ");
+    wsObserver2.setMessage("Last temp recorded by wsObserver2 is ");
+    wsObserver3.setMessage("Last temp recorded by wsObserver3 is ");
+
+    ws.addObserver(wsObserver1);
+    ws.addObserver(wsObserver2);
+    ws.addObserver(wsObserver3);
+
+    Thread thread = new Thread(ws);
+    thread.start();
+
+    Thread.sleep(10000);
+
+    ws.removeObserver(wsObserver3);
 }
