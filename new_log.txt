@@ -1,1 +1,4 @@
-[17:40:53.864052700][INFO] -> Logger initialized for file "new_log.txt".
+[13:57:40.255977][INFO] -> Logger initialized for file "new_log.txt".
+[13:57:40.257984200] -> Simulation started.
+[13:57:40.258984700] -> Processing data....
+[13:57:40.258984700] -> Simulation finished.

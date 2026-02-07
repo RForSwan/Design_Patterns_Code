@@ -53,8 +53,9 @@ public class Logger
 
     private Logger()
     {
-        try(FileWriter writerN = new FileWriter("output.log"))
+        try
         {
+            FileWriter writerN = new FileWriter("output.log");
             this.writer = writerN;
             writerN.write(returnPrefix(LogLevel.INFO) + returnSeparator() + "Logger initialized for file \"output.log\"" + returnSuffix());
 
@@ -78,8 +79,9 @@ public class Logger
     public void setFileName(String name) throws IOException
     {
         this.writer.close();
-        try(FileWriter writerN = new FileWriter(name))
+        try
         {
+            FileWriter writerN = new FileWriter(name);
             this.writer = writerN;
             writerN.write(returnPrefix(LogLevel.INFO) + returnSeparator() + "Logger initialized for file \"" + name + "\"" + returnSuffix());
 

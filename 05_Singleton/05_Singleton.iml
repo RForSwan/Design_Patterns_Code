@@ -8,4 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PMD-X-Module" serialisationVersion="1">
+    <option name="activeLocationsIds" />
+  </component>
 </module>
