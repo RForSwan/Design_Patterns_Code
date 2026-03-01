@@ -5,14 +5,13 @@ import RPGgame.Maps.*;
 import java.util.Scanner;
 
 public class Game {
-    private static String[] mapTypes = {"City map", "Wilderness map"};
+    private static final String[] mapTypes = {"City map", "Wilderness map"};
 
     public void createMap()
     {
-        return;
     }
 
-    public static void main(String[] args)
+    static void main(String[] args)
     {
         // Inits
         Scanner userInput = new Scanner(System.in);

@@ -1,4 +1,4 @@
 public interface Observer
 {
-    public abstract void update(int temperature);
+    void update(int temperature);
 }

@@ -21,8 +21,8 @@ public class Screen
 
     public Screen(int height, int width)
     {
-        this.displayHeight = height;
-        this.displayWidth = width;
+        displayHeight = height;
+        displayWidth = width;
         this.screen = new ScreenCell[height][width];
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
@@ -35,7 +35,7 @@ public class Screen
     public void display()
     {
         System.out.print("+");
-        for(int i = 0; i < this.displayWidth; i++) System.out.print("-");
+        for(int i = 0; i < displayWidth; i++) System.out.print("-");
         System.out.println("+");
 
         for(ScreenCell[] lines : screen)
@@ -49,7 +49,7 @@ public class Screen
         }
 
         System.out.print("+");
-        for(int i = 0; i < this.displayWidth; i++) System.out.print("-");
+        for(int i = 0; i < displayWidth; i++) System.out.print("-");
         System.out.println("+");
     }
 

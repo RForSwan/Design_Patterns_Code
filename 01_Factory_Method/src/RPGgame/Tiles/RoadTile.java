@@ -1,8 +1,8 @@
 package RPGgame.Tiles;
 
 public class RoadTile implements Tile {
-    private String Character = "R";
-    private String Description = "Road";
+    private final String Character = "R";
+    private final String Description = "Road";
 
     @Override
     public String getCharacter()

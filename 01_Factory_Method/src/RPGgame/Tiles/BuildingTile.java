@@ -1,8 +1,8 @@
 package RPGgame.Tiles;
 
 public class BuildingTile implements Tile {
-    private String Character = "B";
-    private String Description = "Building";
+    private final String Character = "B";
+    private final String Description = "Building";
 
     @Override
     public String getCharacter()

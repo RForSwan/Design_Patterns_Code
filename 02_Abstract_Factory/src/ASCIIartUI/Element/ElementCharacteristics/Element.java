@@ -3,10 +3,10 @@ package ASCIIartUI.Element.ElementCharacteristics;
 import ASCIIartUI.Screen.Screen;
 
 public abstract class Element {
-    private int x_pos;
-    private int y_pos;
-    private int width;
-    private int height;
+    private final int x_pos;
+    private final int y_pos;
+    private final int width;
+    private final int height;
     boolean overwritable;
 
     public Element(int x_pos, int y_pos, int width, int height) throws IllegalArgumentException

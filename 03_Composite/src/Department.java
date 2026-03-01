@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Department extends Unit
 {
-    private ArrayList<Unit> units = new ArrayList<>();
+    private final ArrayList<Unit> units = new ArrayList<>();
 
     public Department(String name)
     {
@@ -58,7 +58,7 @@ public class Department extends Unit
     @Override
     public String getXML()
     {
-        String XML = new String();
+        String XML = "";
         XML = XML.concat("<department>\n");
         XML = XML.concat("\t<name>" + this.name + "</name>\n");
         XML = XML.concat("\t<employees>\n");

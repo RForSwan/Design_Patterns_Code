@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/04_Observer/04_Observer.iml" filepath="$PROJECT_DIR$/04_Observer/04_Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_Singleton/05_Singleton.iml" filepath="$PROJECT_DIR$/05_Singleton/05_Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_Decorator/06_Decorator.iml" filepath="$PROJECT_DIR$/06_Decorator/06_Decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_State/07_State.iml" filepath="$PROJECT_DIR$/07_State/07_State.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_State---/07_State---.iml" filepath="$PROJECT_DIR$/07_State---/07_State---.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_Template_Method/08_Template_Method.iml" filepath="$PROJECT_DIR$/08_Template_Method/08_Template_Method.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Design_Patterns_Code.iml" filepath="$PROJECT_DIR$/.idea/Design_Patterns_Code.iml" />
     </modules>
   </component>

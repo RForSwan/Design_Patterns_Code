@@ -2,8 +2,8 @@ import java.util.Random;
 
 public class WeatherStation extends Subject implements Runnable
 {
-    private static int maxTemp =  50;
-    private static int minTemp = -30;
+    private static final int maxTemp =  50;
+    private static final int minTemp = -30;
     private int temperature;
 
     public WeatherStation()

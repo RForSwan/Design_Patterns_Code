@@ -1,8 +1,8 @@
 package RPGgame.Tiles;
 
 public class WaterTile implements Tile {
-    private String Character = "W";
-    private String Description = "Water";
+    private final String Character = "W";
+    private final String Description = "Water";
 
     @Override
     public String getCharacter()

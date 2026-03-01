@@ -7,7 +7,7 @@ public class WeatherStationObserver implements Observer
 
     private String getLastTemp()
     {
-        return Float.toString(lastTemp) + "°C";
+        return lastTemp + "°C";
     }
 
     public void setMessage(String message)

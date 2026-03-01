@@ -5,7 +5,7 @@ import RPGgame.Tiles.Tile;
 import java.util.Random;
 
 public abstract class Map {
-    private Tile[][] mapTiles;
+    private final Tile[][] mapTiles;
     private final String[][] ArrayDrawing = {{"+","---+"},{"| "," | "}};
 
     private final int height;

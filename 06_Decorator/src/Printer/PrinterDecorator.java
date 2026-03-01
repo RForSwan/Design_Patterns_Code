@@ -2,7 +2,7 @@ package Printer;
 
 public class PrinterDecorator extends Printer
 {
-    private Printer printer;
+    private final Printer printer;
 
     public PrinterDecorator(Printer printer)
     {

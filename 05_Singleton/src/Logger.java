@@ -5,7 +5,7 @@ import java.time.LocalTime;
 public class Logger
 {
     //////////// SINGLETON ////////////
-    private static Logger instance = new Logger();
+    private static final Logger instance = new Logger();
 
     public static synchronized Logger getInstance()
     {
