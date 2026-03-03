@@ -1,6 +1,6 @@
-package States;
+package Game.States;
 
-import Game;
+import Game.Game;
 
 public abstract class State
 {
