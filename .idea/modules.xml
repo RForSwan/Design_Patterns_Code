@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/06_Decorator/06_Decorator.iml" filepath="$PROJECT_DIR$/06_Decorator/06_Decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_State/07_State.iml" filepath="$PROJECT_DIR$/07_State/07_State.iml" />
       <module fileurl="file://$PROJECT_DIR$/08_Template_Method/08_Template_Method.iml" filepath="$PROJECT_DIR$/08_Template_Method/08_Template_Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_Strategy/09_Strategy.iml" filepath="$PROJECT_DIR$/09_Strategy/09_Strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Chain_of_Responsibility/10_Chain_of_Responsibility.iml" filepath="$PROJECT_DIR$/10_Chain_of_Responsibility/10_Chain_of_Responsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Design_Patterns_Code.iml" filepath="$PROJECT_DIR$/.idea/Design_Patterns_Code.iml" />
     </modules>
   </component>
