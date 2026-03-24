@@ -77,9 +77,9 @@ public class Gui extends Application {
         stage.setTitle("Memento Pattern Example");
         stage.show();
 
-        Stage history = new Stage();
-        history.setTitle("Memento History Display");
-        history.show();
+//        Stage history = new Stage();
+//        history.setTitle("Memento History Display");
+//        history.show();
     }
 
     public void updateGui() {
