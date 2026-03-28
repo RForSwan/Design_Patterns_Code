@@ -5,11 +5,15 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/11_Memento/pom.xml" />
+        <option value="$PROJECT_DIR$/12_Proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Visitor/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/11_Memento/pom.xml" />
+        <option value="$PROJECT_DIR$/12_Proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Visitor/pom.xml" />
       </set>
     </option>
   </component>

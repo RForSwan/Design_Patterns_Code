@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/09_Strategy/09_Strategy.iml" filepath="$PROJECT_DIR$/09_Strategy/09_Strategy.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_Chain_of_Responsibility/10_Chain_of_Responsibility.iml" filepath="$PROJECT_DIR$/10_Chain_of_Responsibility/10_Chain_of_Responsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/11_Memento/11_Memento.iml" filepath="$PROJECT_DIR$/11_Memento/11_Memento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_Proxy/12_Proxy.iml" filepath="$PROJECT_DIR$/12_Proxy/12_Proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Visitor/13_Visitor.iml" filepath="$PROJECT_DIR$/13_Visitor/13_Visitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Design_Patterns_Code.iml" filepath="$PROJECT_DIR$/.idea/Design_Patterns_Code.iml" />
     </modules>
   </component>

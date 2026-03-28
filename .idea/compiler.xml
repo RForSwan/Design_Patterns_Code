@@ -11,6 +11,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="11_Memento" target="25" />
+      <module name="12_Proxy" target="25" />
+      <module name="13_Visitor" target="25" />
     </bytecodeTargetLevel>
   </component>
 </project>
