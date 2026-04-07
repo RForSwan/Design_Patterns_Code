@@ -46,7 +46,7 @@ public class Computer {
     public void specs() {
         System.out.println("Computer Specifications :\n" +
                            "> Processor : "+ this.cpu + "\n" +
-                           "> RAM : " + this.ram + "\n" +
+                           "> RAM : " + this.ram + "Gb\n" +
                            "> Hard drive : " + this.storage + "\n" +
                            "> Graphics card : " + this.gpu + "\n" +
                            "> Operating system : " + this.os + "\n");
