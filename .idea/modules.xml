@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/13_Visitor/13_Visitor.iml" filepath="$PROJECT_DIR$/13_Visitor/13_Visitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/14_Builder/14_Builder.iml" filepath="$PROJECT_DIR$/14_Builder/14_Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/15_Adapter/15_Adapter.iml" filepath="$PROJECT_DIR$/15_Adapter/15_Adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18_Prototype/18_Prototype.iml" filepath="$PROJECT_DIR$/18_Prototype/18_Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Design_Patterns_Code.iml" filepath="$PROJECT_DIR$/.idea/Design_Patterns_Code.iml" />
     </modules>
   </component>
