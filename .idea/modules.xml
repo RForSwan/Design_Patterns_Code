@@ -18,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/14_Builder/14_Builder.iml" filepath="$PROJECT_DIR$/14_Builder/14_Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/15_Adapter/15_Adapter.iml" filepath="$PROJECT_DIR$/15_Adapter/15_Adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/18_Prototype/18_Prototype.iml" filepath="$PROJECT_DIR$/18_Prototype/18_Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19_Mediator/19_Mediator.iml" filepath="$PROJECT_DIR$/19_Mediator/19_Mediator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20_Iterator/20_Iterator.iml" filepath="$PROJECT_DIR$/20_Iterator/20_Iterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Design_Patterns_Code.iml" filepath="$PROJECT_DIR$/.idea/Design_Patterns_Code.iml" />
     </modules>
   </component>
